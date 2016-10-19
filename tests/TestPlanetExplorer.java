@@ -11,6 +11,11 @@ public class TestPlanetExplorer {
 		int x=0;
 		int y=0;
 		
+		String commandF = "f";
+		String commandB = "B";
+		String commandL = "l";
+		String commandR = "r";
+		
 		
 	}
 }
