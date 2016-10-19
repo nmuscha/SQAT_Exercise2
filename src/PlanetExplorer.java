@@ -38,6 +38,7 @@ public class PlanetExplorer {
 	public String Obstacle(String obsX, String obxY){
 		this.obstacleX = obsX;
 		this.obstacleY = obxY;
+		return obstacleX + obstacleY ;
 	}
 		
 	public String executeCommand(String command){

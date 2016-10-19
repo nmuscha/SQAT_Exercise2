@@ -65,3 +65,5 @@ RefactoringAction 1476880017835 PlanetExplorer.java RENAME obstacle=>String obst
 RefactoringAction 1476880033893 PlanetExplorer.java RENAME Obstacle()=>String Obstacle(String) METHOD
 RefactoringAction 1476880065971 PlanetExplorer.java RENAME Obstacle(String)=>String Obstacle(String, String) METHOD
 EditAction 1476880160243 PlanetExplorer.java 1913 10 13 0
+CompilationAction 1476880160345 PlanetExplorer.java
+EditAction 1476880213135 PlanetExplorer.java 1946 10 14 0
