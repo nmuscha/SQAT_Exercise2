@@ -17,7 +17,7 @@ public class PlanetExplorer {
 	public String getObstacle(){
 		return obstacles;
 	}
-	public void setObstacle(String obstacles){
+	public void setObstacle(String obstacles ){ 
 		this.obstacles = obstacles;
 	}
 	public int getX(){
@@ -33,7 +33,7 @@ public class PlanetExplorer {
 		this.y=y;
 	}
 	
-	
+
 		
 	public String executeCommand(String command){
 		
