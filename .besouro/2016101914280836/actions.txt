@@ -21,3 +21,11 @@ RefactoringAction 1476877899644 PlanetExplorer.java RENAME getObstacle=>void set
 RefactoringAction 1476877915673 PlanetExplorer.java RENAME setObstacle=>void setObstacle() METHOD
 RefactoringAction 1476877923723 PlanetExplorer.java RENAME setObstacle()=>void setObstacle(String) METHOD
 EditAction 1476877982182 PlanetExplorer.java 1526 4 6 0
+RefactoringAction 1476878036518 PlanetExplorer.java ADD int get FIELD
+RefactoringAction 1476878038033 PlanetExplorer.java RENAME get=>int getX FIELD
+RefactoringAction 1476878054045 PlanetExplorer.java RENAME getX=>int getX() METHOD
+RefactoringAction 1476878086731 PlanetExplorer.java ADD void set FIELD
+RefactoringAction 1476878087747 PlanetExplorer.java RENAME set=>void setX FIELD
+RefactoringAction 1476878094273 PlanetExplorer.java RENAME setX=>void setX() METHOD
+RefactoringAction 1476878097286 PlanetExplorer.java RENAME setX()=>void setX(int) METHOD
+EditAction 1476878130216 PlanetExplorer.java 1602 6 8 0

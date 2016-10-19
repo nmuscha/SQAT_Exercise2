@@ -10,18 +10,22 @@ public class PlanetExplorer {
 	public int y;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
-	this.obstacles = obstacles ;
-	this.x= x;
-	this.y= y;
+		this.obstacles = obstacles ;
+		this.x= x;
+		this.y= y;
 	}
-	
 	public String getObstacle(){
 		return obstacles;
 	}
 	public void setObstacle(String obstacles){
 		this.obstacles = obstacles;
 	}
-	
+	public int getX(){
+		return x;
+	}
+	public void setX (int x){
+		this.x=x;
+	}
 	
 	public String executeCommand(String command){
 		
