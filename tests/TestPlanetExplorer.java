@@ -19,6 +19,7 @@ public class TestPlanetExplorer {
 		
 		explorer.executeCommand(commandF);
 		explorer.executeCommand(commandB);
+		assertEquals(1, explorer.getObstacle());
 		
 	}
 }

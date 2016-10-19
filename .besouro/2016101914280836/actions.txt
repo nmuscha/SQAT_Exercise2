@@ -74,3 +74,4 @@ RefactoringAction 1476880701219 TestPlanetExplorer.java ADD PlanetExplorer explo
 RefactoringAction 1476880877755 TestPlanetExplorer.java REMOVE explorer FIELD
 EditAction 1476881492542 TestPlanetExplorer.java 411 1 9 0
 EditAction 1476881492672 PlanetExplorer.java 1911 10 14 0
+EditAction 1476882371422 TestPlanetExplorer.java 454 1 10 1
