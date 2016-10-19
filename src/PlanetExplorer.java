@@ -4,15 +4,24 @@
 // Finish time: 14.28
 
 public class PlanetExplorer {
+	
+	private String obstacles;
+	public int x;
+	public int y;
+	
 	public PlanetExplorer(int x, int y, String obstacles){
-	/*	x and y represent the size of the grid.
-	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
-	 *  
-		Example use: For a 100x100 grid with two obstacles at coordinates (5,5) and (7,8)
-		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
-		 
-	 */
+	this.obstacles = obstacles ;
+	this.x= x;
+	this.y= y;
 	}
+	
+	public String getObstacle(){
+		return obstacles;
+	}
+	public void setObstacle(String obstacles){
+		this.obstacles = obstacles;
+	}
+	
 	
 	public String executeCommand(String command){
 		
@@ -29,3 +38,11 @@ public class PlanetExplorer {
 		return null;
 	}
 }
+
+/*	x and y represent the size of the grid.
+ *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
+ *  
+	Example use: For a 100x100 grid with two obstacles at coordinates (5,5) and (7,8)
+	PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
+	 
+ */

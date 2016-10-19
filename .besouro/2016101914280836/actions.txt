@@ -1,2 +1,23 @@
 FileOpenedAction 1476876488256 PlanetExplorer.java 1270 2 1 0
 EditAction 1476876517217 PlanetExplorer.java 1284 2 1 0
+FileOpenedAction 1476876582338 PlanetExplorerException.java 61 0 0 0
+FileOpenedAction 1476876786783 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1476877605840 PlanetExplorer.java ADD Object obstacles FIELD
+RefactoringAction 1476877611607 PlanetExplorer.java REMOVE obstacles FIELD
+RefactoringAction 1476877662917 PlanetExplorer.java ADD String obstacles FIELD
+RefactoringAction 1476877695298 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1476877701360 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1476877776757 PlanetExplorer.java ADD string get FIELD
+RefactoringAction 1476877778774 PlanetExplorer.java RENAME get=>string getOb FIELD
+RefactoringAction 1476877781290 PlanetExplorer.java RENAME getOb=>string getObstac FIELD
+RefactoringAction 1476877782308 PlanetExplorer.java RENAME getObstac=>string getObstacle FIELD
+RefactoringAction 1476877809838 PlanetExplorer.java RENAME getObstacle=>String getObstacle() METHOD
+RefactoringAction 1476877847490 PlanetExplorer.java RENAME getObstacle()=>String getobstacle() METHOD
+RefactoringAction 1476877861003 PlanetExplorer.java RENAME getobstacle()=>String getObstacle() METHOD
+RefactoringAction 1476877888094 PlanetExplorer.java ADD void set FIELD
+RefactoringAction 1476877889109 PlanetExplorer.java RENAME set=>void setOb FIELD
+RefactoringAction 1476877895630 PlanetExplorer.java RENAME setOb=>void getObstacle FIELD
+RefactoringAction 1476877899644 PlanetExplorer.java RENAME getObstacle=>void setObstacle FIELD
+RefactoringAction 1476877915673 PlanetExplorer.java RENAME setObstacle=>void setObstacle() METHOD
+RefactoringAction 1476877923723 PlanetExplorer.java RENAME setObstacle()=>void setObstacle(String) METHOD
+EditAction 1476877982182 PlanetExplorer.java 1526 4 6 0
