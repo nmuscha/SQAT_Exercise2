@@ -8,6 +8,8 @@ public class PlanetExplorer {
 	private String obstacles;
 	public int x;
 	public int y;
+	String obstacleX;
+	String obstacleY;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 		this.obstacles = obstacles ;
@@ -32,7 +34,12 @@ public class PlanetExplorer {
 	public void setY (int y){
 		this.y=y;
 	}
-			
+		
+	public String Obstacle(String obsX, String obxY){
+		this.obstacleX = obsX;
+		this.obstacleY = obxY;
+	}
+		
 	public String executeCommand(String command){
 		//this.obstacles = obstacles;
 		
@@ -47,6 +54,9 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
+		return null;
+	}
+	public Object getCoordinates(){
 		return null;
 	}
 }
