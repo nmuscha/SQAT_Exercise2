@@ -31,7 +31,10 @@ public class PlanetExplorer {
 	}
 	public void setY (int y){
 		this.y=y;
+	}
 	
+	
+		
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
