@@ -29,3 +29,12 @@ RefactoringAction 1476878087747 PlanetExplorer.java RENAME set=>void setX FIELD
 RefactoringAction 1476878094273 PlanetExplorer.java RENAME setX=>void setX() METHOD
 RefactoringAction 1476878097286 PlanetExplorer.java RENAME setX()=>void setX(int) METHOD
 EditAction 1476878130216 PlanetExplorer.java 1602 6 8 0
+RefactoringAction 1476878154962 PlanetExplorer.java ADD int getX()/2 METHOD
+RefactoringAction 1476878154963 PlanetExplorer.java ADD void setX(int)/2 METHOD
+RefactoringAction 1476878157479 PlanetExplorer.java RENAME getX()/2=>int get() METHOD
+RefactoringAction 1476878158497 PlanetExplorer.java RENAME get()=>int getY() METHOD
+RefactoringAction 1476878163546 PlanetExplorer.java RENAME setX(int)/2=>void set(int) METHOD
+RefactoringAction 1476878164563 PlanetExplorer.java RENAME set(int)=>void setY(int) METHOD
+RefactoringAction 1476878166578 PlanetExplorer.java RENAME setY(int)=>void setY() METHOD
+RefactoringAction 1476878167593 PlanetExplorer.java RENAME setY()=>void setY(int) METHOD
+EditAction 1476878173002 PlanetExplorer.java 1676 8 9 0
