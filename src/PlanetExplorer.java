@@ -1,7 +1,7 @@
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID: 2520627
-// Finish time: 14.28
+// Finish time: 16.24
 
 public class PlanetExplorer {
 	
